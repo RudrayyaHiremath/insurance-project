@@ -25,7 +25,8 @@ public class Customer {
 	private String phoneNo; 
 	
 	private String address;
-	
+
+	private String emaiID;
 	private int age;
 
 	public Integer getUserId() {
