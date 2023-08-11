@@ -13,6 +13,7 @@ public class CustomerInsuranceRequestDto {
 	@NotNull(message="Please enter valid account number")
 	@Min(value=0, message="Please enter valid account number")
 	private long fromAccount;
+	public int lonid;
 	@NotNull(message="User Id is mandatory")
     @Min(value=100, message="Enter valid  user Id")
     @Column(name = "userId")
